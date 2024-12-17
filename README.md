@@ -15,6 +15,11 @@ Cài đặt các phiên bản tương thích của Elasticsearch và confluent-k
     pip install elasticsearch==7.13.4
     pip install confluent-kafka
 
+Run 2 file python bằng 2 terminal khác nhau:
+
+    py log_generator.py
+    py log_processor.py
+
 3. Quản lý Topic Kafka
 ----------------------
 - Liệt kê tất cả các Topic:
